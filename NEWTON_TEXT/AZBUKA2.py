@@ -1,0 +1,261 @@
+# -*- coding: utf-8 -*-
+slova = input('Введите слово: ').lower()
+sloval = list(slova)
+pole = [[ [] ]* len(slova),
+        [ [] ]* len(slova),
+        [ [] ]* len(slova),
+        [ [] ]* len(slova),
+        [ [] ]* len(slova),
+        [ [] ]* len(slova),
+        [ [] ]* len(slova)]
+num = 0
+for j in sloval:
+    if j == 'a':
+        pole[0][num] = '   *   '
+        pole[1][num] = '  * *  '
+        pole[2][num] = ' *   * '
+        pole[3][num] = '*     *'
+        pole[4][num] = '*******'
+        pole[5][num] = '*     *'
+        pole[6][num] = '*     *'
+    elif j == 'b':
+        pole[0][num] = '****** '
+        pole[1][num] = '*     *'
+        pole[2][num] = '*     *'
+        pole[3][num] = '****** '
+        pole[4][num] = '*     *'
+        pole[5][num] = '*     *'
+        pole[6][num] = '****** '
+    elif j == 'c':
+        pole[0][num] = ' ***** '
+        pole[1][num] = '*     *'
+        pole[2][num] = '*      '
+        pole[3][num] = '*      '
+        pole[4][num] = '*      '
+        pole[5][num] = '*     *'
+        pole[6][num] = ' ***** '
+    elif j == 'd':
+        pole[0][num] = '*****  '
+        pole[1][num] = '*    * '
+        pole[2][num] = '*     *'
+        pole[3][num] = '*     *'
+        pole[4][num] = '*     *'
+        pole[5][num] = '*    * '
+        pole[6][num] = '*****  '
+    elif j == 'e':
+        pole[0][num] = '*******'
+        pole[1][num] = '*      '
+        pole[2][num] = '*      '
+        pole[3][num] = '*****  '
+        pole[4][num] = '*      '
+        pole[5][num] = '*      '
+        pole[6][num] = '*******'
+    elif j == 'f':
+        pole[0][num] = '*******'
+        pole[1][num] = '*      '
+        pole[2][num] = '*      '
+        pole[3][num] = '*****  '
+        pole[4][num] = '*      '
+        pole[5][num] = '*      '
+        pole[6][num] = '*      '
+    elif j == 'g':
+        pole[0][num] = ' ***** '
+        pole[1][num] = '*     *'
+        pole[2][num] = '*      '
+        pole[3][num] = '*      '
+        pole[4][num] = '*   ***'
+        pole[5][num] = '*     *'
+        pole[6][num] = '****** '
+    elif j == 'h':
+        pole[0][num] = '*     *'
+        pole[1][num] = '*     *'
+        pole[2][num] = '*     *'
+        pole[3][num] = '*******'
+        pole[4][num] = '*     *'
+        pole[5][num] = '*     *'
+        pole[6][num] = '*     *'
+    elif j == 'i':
+        pole[0][num] = '*******'
+        pole[1][num] = '   *   '
+        pole[2][num] = '   *   '
+        pole[3][num] = '   *   '
+        pole[4][num] = '   *   '
+        pole[5][num] = '   *   '
+        pole[6][num] = '*******'
+    elif j == 'j':
+        pole[0][num] = ' ******'
+        pole[1][num] = '     * '
+        pole[2][num] = '     * '
+        pole[3][num] = '     * '
+        pole[4][num] = '*    * '
+        pole[5][num] = '*    * '
+        pole[6][num] = ' ***** '
+    elif j == 'k':
+        pole[0][num] = '*     *'
+        pole[1][num] = '*    * '
+        pole[2][num] = '*   *  '
+        pole[3][num] = '****   '
+        pole[4][num] = '*   *  '
+        pole[5][num] = '*    * '
+        pole[6][num] = '*     *'
+    elif j == 'l':
+        pole[0][num] = '*      '
+        pole[1][num] = '*      '
+        pole[2][num] = '*      '
+        pole[3][num] = '*      '
+        pole[4][num] = '*      '
+        pole[5][num] = '*      '
+        pole[6][num] = '*******'
+    elif j == 'm':
+        pole[0][num] = '*     *'
+        pole[1][num] = '**   **'
+        pole[2][num] = '* * * *'
+        pole[3][num] = '*  *  *'
+        pole[4][num] = '*     *'
+        pole[5][num] = '*     *'
+        pole[6][num] = '*     *'
+    elif j == 'n':
+        pole[0][num] = '*     *'
+        pole[1][num] = '**    *'
+        pole[2][num] = '* *   *'
+        pole[3][num] = '*  *  *'
+        pole[4][num] = '*   * *'
+        pole[5][num] = '*    **'
+        pole[6][num] = '*     *'
+
+    elif j == 'o':
+        pole[0][num] = '*******'
+        pole[1][num] = '*     *'
+        pole[2][num] = '*     *'
+        pole[3][num] = '*     *'
+        pole[4][num] = '*     *'
+        pole[5][num] = '*     *'
+        pole[6][num] = '*******'
+
+    elif j == 'p':
+        pole[0][num] = '****** '
+        pole[1][num] = '*     *'
+        pole[2][num] = '*     *'
+        pole[3][num] = '****** '
+        pole[4][num] = '*      '
+        pole[5][num] = '*      '
+        pole[6][num] = '*      '
+    elif j == 'q':
+        pole[0][num] = '*******'
+        pole[1][num] = '*     *'
+        pole[2][num] = '*     *'
+        pole[3][num] = '*     *'
+        pole[4][num] = '*   * *'
+        pole[5][num] = '*******'
+        pole[6][num] = '     * '
+    elif j == 'r':
+        pole[0][num] = '****** '
+        pole[1][num] = '*     *'
+        pole[2][num] = '*     *'
+        pole[3][num] = '****** '
+        pole[4][num] = '*   *  '
+        pole[5][num] = '*    * '
+        pole[6][num] = '*     *'
+    elif j == 's':
+        pole[0][num] = ' ***** '
+        pole[1][num] = '*     *'
+        pole[2][num] = '*      '
+        pole[3][num] = ' ***** '
+        pole[4][num] = '      *'
+        pole[5][num] = '      *'
+        pole[6][num] = ' ***** '
+    elif j == 't':
+        pole[0][num] = '*******'
+        pole[1][num] = '   *   '
+        pole[2][num] = '   *   '
+        pole[3][num] = '   *   '
+        pole[4][num] = '   *   '
+        pole[5][num] = '   *   '
+        pole[6][num] = '   *   '
+    elif j == 'u':
+        pole[0][num] = '*     *'
+        pole[1][num] = '*     *'
+        pole[2][num] = '*     *'
+        pole[3][num] = '*     *'
+        pole[4][num] = '*     *'
+        pole[5][num] = '*     *'
+        pole[6][num] = '*******'
+    elif j == 'v':
+        pole[0][num] = '*     *'
+        pole[1][num] = '*     *'
+        pole[2][num] = '*     *'
+        pole[3][num] = ' *   * '
+        pole[4][num] = ' *   * '
+        pole[5][num] = '  * *  '
+        pole[6][num] = '   *   '
+    elif j == 'w':
+        pole[0][num] = '*     *'
+        pole[1][num] = '*  *  *'
+        pole[2][num] = '*  *  *'
+        pole[3][num] = '*  *  *'
+        pole[4][num] = '*  *  *'
+        pole[5][num] = '*  *  *'
+        pole[6][num] = ' ** ** '
+    elif j == 'x':
+        pole[0][num] = '*     *'
+        pole[1][num] = ' *   * '
+        pole[2][num] = '  * *  '
+        pole[3][num] = '   *   '
+        pole[4][num] = '  * *  '
+        pole[5][num] = ' *   * '
+        pole[6][num] = '*     *'
+    elif j == 'y':
+        pole[0][num] = '*     *'
+        pole[1][num] = '*     *'
+        pole[2][num] = ' *   * '
+        pole[3][num] = '  * *  '
+        pole[4][num] = '   *   '
+        pole[5][num] = '   *   '
+        pole[6][num] = '   *   '
+    elif j == 'z':
+        pole[0][num] = '*******'
+        pole[1][num] = '     * '
+        pole[2][num] = '    *  '
+        pole[3][num] = '   *   '
+        pole[4][num] = '  *    '
+        pole[5][num] = ' *     '
+        pole[6][num] = '*******'
+    elif j == ' ':
+        pole[0][num] = '   '
+        pole[1][num] = '   '
+        pole[2][num] = '   '
+        pole[3][num] = '   '
+        pole[4][num] = '   '
+        pole[5][num] = '   '
+        pole[6][num] = '   '
+    elif j == '.':
+        pole[0][num] = '    '
+        pole[1][num] = '    '
+        pole[2][num] = '    '
+        pole[3][num] = '    '
+        pole[4][num] = '    '
+        pole[5][num] = ' ** '
+        pole[6][num] = ' ** '
+    elif j == ':':
+        pole[0][num] = ' ** '
+        pole[1][num] = ' ** '
+        pole[2][num] = '    '
+        pole[3][num] = '    '
+        pole[4][num] = '    '
+        pole[5][num] = ' ** '
+        pole[6][num] = ' ** '
+    elif j == '0':
+        pole[0][num] = '*******'
+        pole[1][num] = '     * '
+        pole[2][num] = '    *  '
+        pole[3][num] = '   *   '
+        pole[4][num] = '  *    '
+        pole[5][num] = ' *     '
+        pole[6][num] = '*******'
+    else:
+        pass
+    num += 1
+
+for i in pole:
+    i = '  '.join(i)
+    print(i)
