@@ -166,14 +166,14 @@ def Exchange_Rates():
             mess = USD
 
 
-    if mess.find('лей') != -1 or (mess.find('лея') != -1 and mess.find('курс') != -1):
+    elif mess.find('лей') != -1 or (mess.find('лея') != -1 and mess.find('курс') != -1):
         if mess.find('молдав') != -1:
             mess = MDL
 
         elif mess.find('румын') != -1:
             mess = RON
 
-    if mess.find('манат') != -1 or (mess.find('маната') != -1 and mess.find('курс') != -1):
+    elif mess.find('манат') != -1 or (mess.find('маната') != -1 and mess.find('курс') != -1):
         if mess.find('айзерба') != -1:
             mess = AZN
 
@@ -181,18 +181,18 @@ def Exchange_Rates():
             mess = TMT
 
 
-    if mess.find('лев') != -1 or (mess.find('льва') != -1 and mess.find('курс') != -1):
+    elif mess.find('лев') != -1 or (mess.find('льва') != -1 and mess.find('курс') != -1):
         if mess.find('болгар') != -1:
             mess = BGN
 
-    if mess.find('рубль') != -1 or (mess.find('рубля') != -1 and mess.find('курс') != -1):
+    elif mess.find('рубль') != -1 or (mess.find('рубля') != -1 and mess.find('курс') != -1):
         if mess.find('белорусс') != -1:
             mess = BYN
 
-    if mess.find('рупий') != -1 or (mess.find('рупия') != -1 and mess.find('курс') != -1):
+    elif mess.find('рупий') != -1 or (mess.find('рупия') != -1 and mess.find('курс') != -1):
         mess = INR
 
-    if mess.find('крона') != -1 or (mess.find('кроны') != -1 and mess.find('курс') != -1):
+    elif mess.find('крона') != -1 or (mess.find('кроны') != -1 and mess.find('курс') != -1):
         if mess.find('датс') != -1:
             mess = DKK
 
@@ -205,61 +205,61 @@ def Exchange_Rates():
         elif mess.find('швед') != -1:
             mess = SEK
 
-    if mess.find('тенге') != -1 or (mess.find('тенгея') != -1 and mess.find('курс') != -1):
+    elif mess.find('тенге') != -1 or (mess.find('тенгея') != -1 and mess.find('курс') != -1):
         mess = KZT
 
 
-    if mess.find('реал') != -1 or (mess.find('реала') != -1 and mess.find('курс') != -1):
+    elif mess.find('реал') != -1 or (mess.find('реала') != -1 and mess.find('курс') != -1):
         mess = BRL
 
-    if mess.find('евро') != -1 or (mess.find('евра') != -1 and mess.find('курс') != -1):
+    elif mess.find('евро') != -1 or (mess.find('евра') != -1 and mess.find('курс') != -1):
         mess = EUR
 
 
-    if mess.find('иен') != -1 or (mess.find('иена') != -1 and mess.find('курс') != -1):
+    elif mess.find('иен') != -1 or (mess.find('иена') != -1 and mess.find('курс') != -1):
         mess = JPY
 
 
-    if mess.find('рэнд') != -1 or (mess.find('рэнда') != -1 and mess.find('курс') != -1):
+    elif mess.find('рэнд') != -1 or (mess.find('рэнда') != -1 and mess.find('курс') != -1):
         mess = ZAR
 
 
-    if mess.find('франк') != -1 or (mess.find('франка') != -1 and mess.find('курс') != -1):
+    elif mess.find('франк') != -1 or (mess.find('франка') != -1 and mess.find('курс') != -1):
         mess = CHF
 
 
-    if mess.find('фунт') != -1 or (mess.find('фунта') != -1 and mess.find('курс') != -1):
+    elif mess.find('фунт') != -1 or (mess.find('фунта') != -1 and mess.find('курс') != -1):
         mess = GBP
 
-    if mess.find('гривна') != -1 or (mess.find('гривны') != -1 and mess.find('курс') != -1):
+    elif mess.find('гривна') != -1 or (mess.find('гривны') != -1 and mess.find('курс') != -1):
         mess = UAH
 
-    if mess.find('лира') != -1 or (mess.find('лиры') != -1 and mess.find('курс') != -1):
+    elif mess.find('лира') != -1 or (mess.find('лиры') != -1 and mess.find('курс') != -1):
         if mess.find('турец') != -1:
             mess = TRY
 
-    if mess.find('сомон') != -1 or (mess.find('сомона') != -1 and mess.find('курс') != -1):
+    elif mess.find('сомон') != -1 or (mess.find('сомона') != -1 and mess.find('курс') != -1):
         mess = TJS
 
-    if mess.find('СДР') != -1 or (mess.find('СДР') != -1 and mess.find('курс') != -1):
+    elif mess.find('СДР') != -1 or (mess.find('СДР') != -1 and mess.find('курс') != -1):
         mess = XDR
 
-    if mess.find('злотый') != -1 or (mess.find('злотыя') != -1 and mess.find('курс') != -1):
+    elif mess.find('злотый') != -1 or (mess.find('злотыя') != -1 and mess.find('курс') != -1):
         mess = PLN
 
-    if mess.find('сом') != -1 or (mess.find('сома') != -1 and mess.find('курс') != -1):
+    elif mess.find('сом') != -1 or (mess.find('сома') != -1 and mess.find('курс') != -1):
         mess = KGS
 
-    if mess.find('сум') != -1 or (mess.find('сума') != -1 and mess.find('курс') != -1):
+    elif mess.find('сум') != -1 or (mess.find('сума') != -1 and mess.find('курс') != -1):
         mess = UZS
 
-    if mess.find('форинт') != -1 or (mess.find('флоринта') != -1 and mess.find('курс') != -1):
+    elif mess.find('форинт') != -1 or (mess.find('флоринта') != -1 and mess.find('курс') != -1):
         mess = HUF
 
-    if mess.find('вон') != -1 or (mess.find('вона') != -1 and mess.find('курс') != -1):
+    elif mess.find('вон') != -1 or (mess.find('вона') != -1 and mess.find('курс') != -1):
         mess = KRW
 
-    if mess.find('юань') != -1 or (mess.find('юаня') != -1 and mess.find('курс') != -1):
+    elif mess.find('юань') != -1 or (mess.find('юаня') != -1 and mess.find('курс') != -1):
         mess = CNY
     else:
         return 'Я не знаю'
