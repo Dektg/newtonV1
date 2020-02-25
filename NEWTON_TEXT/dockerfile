@@ -1,8 +1,0 @@
-FROM python:3.6-slim
-
-SHELL ["/bin/bash", "-c"]
-
-# Default to UTF-8 file.encoding
-ENV LANG C.UTF-8
-
-RUN pip install keras

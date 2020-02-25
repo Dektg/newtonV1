@@ -1,3 +1,0 @@
-from num2words import num2words
-
-print(num2words(123456789123, lang='ru'))

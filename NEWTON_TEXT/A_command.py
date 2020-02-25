@@ -1,1 +1,0 @@
-mess_text = "ip"
